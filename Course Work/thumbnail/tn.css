@@ -1,0 +1,139 @@
+.logo{
+  position: fixed;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.centerNavBar{
+  display: flex;
+  justify-content: right;
+  padding-top: 1%;
+}
+
+ul {
+  margin: 0;
+  padding-right: 0;
+  padding-top: 5px;
+  
+}
+
+li {
+  display:inline;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+a { 
+  padding-right: 13px;
+  text-decoration: none;
+  padding-left: 5px;
+  color: black;
+}
+
+a:hover {
+
+  text-decoration: 3px underline;
+  text-decoration-color: black;
+  text-underline-offset: 8px;
+}
+
+.withoutLast{
+  border-right: 2px solid black; 
+}
+
+h1{
+  text-align: center;
+  font-family: system-ui;
+}
+img{
+  max-width: 100%;
+}
+.c1{
+    padding: 20px 0px;
+}
+
+figure{
+  position: relative;
+  right:15%;
+  max-width: 800px;
+  margin: 0 auto 75px;
+  border: 0px solid  #000;
+  padding-bottom: 0px;
+}
+
+figure img{
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+}
+.thumb_list{
+  text-align: center;
+}
+
+.thumb_list ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.thumb_list ul li{
+  display: inline-block;
+  border:1px solid #fff;
+  width: 100px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.thumb_list ul li img{
+  display: block;
+}
+
+.imgClass{
+  border-width: 10px;
+  border-style: outset;
+  border-color: #4D77FF;
+  width: 700px;
+  padding: 20px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+}
+
+#intro{
+  font-family: system-ui;
+  text-align: center;
+  padding-right: 50px;
+  line-height: 40px;
+
+}
+
+section{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.bc{
+
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: -10px;
+  padding-top: 10px;
+
+}
+
+.colour{
+  position: float;
+  right: 20%;
+}
+
+.bottombtn a{
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid rgb(14, 27, 44);
+  color: rgb(14, 27, 44);
+  margin-left: 20px;
+}

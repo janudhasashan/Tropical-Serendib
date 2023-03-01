@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Tropical Serendib Products</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="favicon1.png"/>
+    <script src="https://kit.fontawesome.com/c156086429.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="https://isurudilanga.github.io/WebCWHome/"><img class="logo" src="logo3.png" alt="" width="260" height="60"></a>
+
+    <nav>
+        <div class="centerNavBar">
+            <ul>
+                <li><i class="fa-solid fa-house"></i>            <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\MainHomePage\index.html" class="withoutLast">Main Page</a></li>
+                <li><i class="fa-solid fa-envelope-open"></i>    <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Query\index.html" class="withoutLast">Query Form</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i>    <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Buy Product\index.html" class="withoutLast">Buy Product</a></li>
+                <li><i class="fa-solid fa-sitemap"></i>          <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\sitemap\index.html" class="withoutLast">Site Map</a></li>
+                <li><i class="fa-regular fa-circle-question"></i><a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Quiz\webbbbbbbbbbb\Htmllll.html" class="withoutLast">Quiz</a></li>
+                <li><i class="fa-solid fa-images"></i>           <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\thumbnail\index.html" class="withoutLast">Thumbnails</a></li>
+                <li><i class="fa-solid fa-user-group"></i>       <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Student Details\index02.html" >Student Details</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <img src="Capture.JPG" alt="" width="100%"><br>
+    
+    <!--------- WHITE T ------------------>
+    <div class="firstLine">
+        <form>
+            <fieldset style="width: 200px;">
+                <legend>Tropical Serendib Tee - White</legend>
+                <img src="tswhitetee.jpeg" alt="" width="200" height="200">
+                <h3>LKR 1200.00</h3>
+
+                <input type="radio" name="whiteTSize" id="small" value="small">
+                <label for="small">Small</label>
+                <input type="radio" name="whiteTSize" id="medium" value="medium">
+                <label for="medium">Medium</label><br>
+                <input type="radio" name="whiteTSize" id="large" value="large">
+                <label for="large">Large</label>
+                <input type="radio" name="whiteTSize" id="xlarge" value="xlarge">
+                <label for="xlarge">X Large</label><br><br>
+
+                <label for="quantity">Quantity</label>
+                <select name="Quantity" id="whiteTQuantity">
+                    <option value="0">00</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value='4'>04</option>
+                    <option value='5'>05</option>
+                    <option value='6'>06</option>
+                    <option value='7'>07</option>
+                    <option value='8'>08</option>
+                    <option value='9'>09</option>
+                    <option value='10'>10</option>
+                </select><br><br>
+                <input type="button" id="addtocButton" value="Add to Cart" onclick="whiteTShirt()">
+                
+            </fieldset>
+        </form>
+
+        <!----------- BLACK T ---------->
+
+        <form>
+            <fieldset style="width: 200px;">
+                <legend>Tropical Serendib Tee - Black</legend>
+                <img src="tsblacktee.jpeg" alt="" width="200" height="200">
+                <h3>LKR 1200.00</h3>
+
+                <input type="radio" name="blackTSize" id="small" value="small">
+                <label for="small">Small</label>
+                <input type="radio" name="blackTSize" id="medium" value="medium">
+                <label for="medium">Medium</label><br>
+                <input type="radio" name="blackTSize" id="large" value="large">
+                <label for="large">Large</label>
+                <input type="radio" name="blackTSize" id="xlarge" value="xlarge">
+                <label for="xlarge">X Large</label><br><br>
+
+                <label for="quantity">Quantity</label>
+                <select name="Quantity" id="blackTQuantity">
+                    <option value="0">00</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                </select><br><br>
+
+                <input type="button" id="addtocButton" value="Add to Cart" onclick="blackTShirt()">
+            </fieldset>
+        </form>
+
+        <!-------------- HODDY ------------------->
+
+        <form>
+            <fieldset style="width: 200px;">
+                <legend>Tropical Serendib Hoody</legend>
+                <img src="tshoody.jpeg" alt="TS Hoody" width="200" height="200">
+                <h3>LKR 2000.00</h3>
+
+                <input type="radio" name="hoddySize" id="small" value="small">
+                <label for="small">Small</label>
+                <input type="radio" name="hoddySize" id="medium" value="medium">
+                <label for="medium">Medium</label><br>
+                <input type="radio" name="hoddySize" id="large" value="large">
+                <label for="large">Large</label>
+                <input type="radio" name="hoddySize" id="xlarge" value="xlarge">
+                <label for="xlarge">X Large</label><br><br>
+
+                <label for="quantity">Quantity</label>
+                <select name="Quantity" id="hoddyQuantity">
+                    <option value="0">00</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                </select><br><br>
+
+                <input type="button" id="addtocButton" value="Add to Cart" onclick="hoody()">
+
+            </fieldset>
+        </form>
+
+        <!--------------- APPLICATION ---------------->
+
+        <form class="application">
+            <fieldset style="width: 420px; height: 1050px;">
+                <legend>Buyer Details</legend><br><br>
+                <label for="userFirstName">First Name</label><br><input type="text" id="userFirstName" placeholder="Your First Name">
+                <label for="userLastName">Last Name</label><br><input type="text" id="userLastName" placeholder="Your Last Name">
+                <label for="userEmail">Email</label><br><input type="email"  id="userEmail" placeholder="Your Email">
+                <label for="userAddress">Address</label><br><input type="text" id="userAddress" placeholder="Your Address">
+                <label for="userTel">Contact No</label><br><input type="tel" id="userTel" placeholder="Your Contact Number"><br><br>
+                
+                <input type="button" id="placeorder" value="Place Order" onclick="purchers()">
+
+                <br><br>
+
+                <table>
+                    <tr>
+                        <td><span class="whiteT"></span></td>
+                        <td class="lastcoloms"><span class="QtyWhiteTee"></span></td>
+                        <td class="lastcoloms"><input type="button" id="removeWhiteT" class="cancel" value="X" onclick="removewhiteT()"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="blackT"></span></td>
+                        <td class="lastcoloms"><span class="QtyBlackTee"></span></td>
+                        <td class="lastcoloms"><input type="button" id="removeBlackT" class="cancel" value="X" onclick="removeblackT()"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="hoddy"></span></td>
+                        <td class="lastcoloms"><span class="Qtyhoddy"></span></td>
+                        <td class="lastcoloms"><input type="button" id="removeHoddy" class="cancel" value="X" onclick="removehoddy()"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="bag"></span></td>
+                        <td class="lastcoloms"><span class="Qtybag"></span></td>
+                        <td class="lastcoloms"><input type="button" id="removeBag" class="cancel" value="X" onclick="removebag()"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="umbrella"></span></td>
+                        <td class="lastcoloms"><span class="Qtyumbrella"></span></td>
+                        <td class="lastcoloms"><input type="button" id="removeUmbrella" class="cancel" value="X" onclick="removeumbrella()"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="cap"></span></td>
+                        <td class="lastcoloms"><span class="Qtycap"></span></td>
+                        <td class="lastcoloms"><input type="button" id="removeCap" class="cancel" value="X" onclick="removecap()"></td>
+                    </tr>
+                </table>
+                <div class="bottombtn">
+                    <button><a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Content Page\index.html">Content Page</a></button>
+                    <button><a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Page Editors\PageEditorStudent1\index.html">Page Editor</a></button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="secondLine">
+
+        <!-------------------- BAG ----------------->
+
+        <form>
+            <fieldset style="width: 200px;">
+                <legend>Tropical Serendib Bag</legend>
+                <img src="tsbag.jpeg" alt="" width="200" height="200"><br><br>
+                <h3>LKR 2500.00</h3>
+
+                <label for="quantity">Quantity</label>
+                <select name="Quantity" id="bagQuantity">
+                    <option value="0">00</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                </select><br><br>
+
+                <input type="button" id="addtocButton" value="Add to Cart" onclick="bag()">
+
+            </fieldset>
+        </form>
+
+        <!-------------- UMBRELLA -------------------->
+
+        <form>
+            <fieldset style="width: 200px;">
+                <legend>Tropical Serendib Umbrella</legend>
+                <img src="tsu.jpeg" alt="" width="200" height="200">
+                <h3>LKR 1500.00</h3>
+
+                <label for="quantity">Quantity</label>
+                <select name="Quantity" id="umbrellaquantity">
+                    <option value="0">00</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                </select><br><br>
+
+                <input type="button" id="addtocButton" value="Add to Cart" onclick="umbrella()">
+            </fieldset>
+        </form>
+
+        <!---------- CAP ------------->
+        <form>
+            <fieldset style="width: 200px;">
+                <legend>Tropical Serendib Cap</legend>
+                <img src="tscap.jpeg" alt="" width="200" height="200"><br><br>
+                <h3>LKR 750.00</h3>
+
+                <label for="quantity">Quantity</label>
+                <select name="Quantity" id="capquantity">
+                    <option value="0">00</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                </select><br><br>
+
+                <input type="button" id="addtocButton" value="Add to Cart" onclick="cap()">
+
+            </fieldset>
+        </form>
+
+    </div>
+
+    <!------------- SUMMARY ---------------------------------------------------->
+    <div class="summary">
+        <form action="" class="summaryForm">
+            <h2>Summary of the Order</h2>
+            <label for=""><b>Customer Name: </b><span class="customerName"> </span></label><br><br>
+            <label for=""><b>Customer Address: </b><span class="customerAddress"> </span></label><br><br>
+            <label for=""><b>Contact No: </b><span class="contactNumber"></span></label><br><br>
+            <label for=""><b>Email: </b><span class="emailAddress"></span></label>
+        
+        <br><br>
+        
+        <!------------------------ TABLE OF CART ------------------------>
+        
+        <div class="cart">
+            <table>
+                <tr>
+                    <th class="firstColom">Item</th>
+                    <th>Quntity</th>
+                    <th>Size</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td><span class="whiteTName"></span></td>
+                    <td><span class="whiteTQty"></span></td>
+                    <td><span class="whiteTSize"></span></td>
+                    <td><span class="whiteTTotal"></span></td>
+                </tr>
+                <tr>
+                    <td><span class="blackTName"></span></td>
+                    <td><span class="blackTQty"></span></td>
+                    <td><span class="blackTSize"></span></td>
+                    <td><span class="blackTTotal"></span></td>
+                </tr>
+                <tr>
+                    <td><span class="hoddyName"></span></td>
+                    <td><span class="hoddyQty"></span></td>
+                    <td><span class="hoddySize"></span></td>
+                    <td><span class="hoddyTotal"></span></td>
+                </tr>
+                <tr>
+                    <td><span class="bagName"></span></td>
+                    <td><span class="bagQty"></span></td>
+                    <td><span class="bagSize"></span></td>
+                    <td><span class="bagTotal"></span></td>
+                </tr>
+                <tr>
+                    <td><span class="umbrellaName"></span></td>
+                    <td><span class="umbrellaQty"></span></td>
+                    <td><span class="umbrellaSize"></span></td>
+                    <td><span class="umbrellaTotal"></span></td>
+                </tr>
+                <tr>
+                    <td><span class="capName"></span></td>
+                    <td><span class="capQty"></span></td>
+                    <td><span class="capSize"></span></td>
+                    <td><span class="capTotal"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>Total cost for product</b></td>
+                    <td class="totalPrice"></td>
+                </tr>
+            </table><br><br>
+        </form>
+
+            <input type="button" value="Edit" onclick="editbtn()">
+            <button onclick="BuyItem()" id="buybutton">Buy now</button>
+
+        </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>

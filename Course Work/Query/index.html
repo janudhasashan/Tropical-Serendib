@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Query Form</title>
+	<link rel="stylesheet" href="QueryForm.css">
+	<link rel="shortcut icon" type="image/jpg" href="favicon1.png"/>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/c156086429.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<a href="https://isurudilanga.github.io/WebCWHome/"><img class="logo" src="logo3.png" alt="" width="304" height="80"></a>
+
+    <nav>
+        <div class="centerNavBar">
+            <ul>
+                <li><i class="fa-solid fa-house"></i>            <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\MainHomePage\index.html" class="withoutLast">Main Page</a></li>
+                <li><i class="fa-solid fa-envelope-open"></i>    <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Query\index.html" class="withoutLast">Query Form</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i>    <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Buy Product\index.html" class="withoutLast">Buy Product</a></li>
+                <li><i class="fa-solid fa-sitemap"></i>          <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\sitemap\index.html" class="withoutLast">Site Map</a></li>
+                <li><i class="fa-regular fa-circle-question"></i><a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Quiz\webbbbbbbbbbb\Htmllll.html" class="withoutLast">Quiz</a></li>
+                <li><i class="fa-solid fa-images"></i>           <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\thumbnail\index.html" class="withoutLast">Thumbnails</a></li>
+                <li><i class="fa-solid fa-user-group"></i>       <a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Student Details\index02.html" >Student Details</a></li>
+            </ul>
+        </div>
+    </nav>
+
+	<h1>Query Form</h1>
+
+	<div class="emailForm-center">
+		<form class="emailForm">
+			<label class="queryFormName">Name:  
+				<input type="text" class="nameInput" id="checkName">
+			</label><br><br>
+			<label class="queryFormEmail">Email: 
+				<input type="email" class="emailInput" id="checkEmail">
+			</label><br><br>
+			<table>
+				<tr>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioBook" value="Booking">Booking
+						</label>
+					</td>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioPostpone" value="Postpone">Postpone
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioCancel" value="Cancelation">Cancelation
+						</label>
+					</td>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioRefund" value="Refund" >Refund
+						</label>
+					</td>
+				</tr>
+			</table><br>
+
+			<textarea id="queryTextArea" cols="15" rows="8" placeholder="Enter Query Details"></textarea><br><br>	
+
+			<input type="button" class="checkBtn" onclick="movebtn()" value="Submit">
+
+		</form> <br><br><br>
+		
+	</div>
+
+	
+	<div class="popUpForm-center">
+		<div id="myModal" class="popUpForm">
+
+			<div class="check-Form">
+				<form id="checkedQueryForm">
+					<label class="namePopUpLabel">Name: 
+						<span class="inputPopUpForm" id="namePopUp"></span>
+					</label><br><br>
+
+					<label class="emailPopUpLabel">Email: 
+						<span class="inputPopUpForm" id="emailPopUp"></span>
+					</label><br><br>
+
+					<label class="subjectPopUpLabel">Sublect: 
+						<span class="inputPopUpForm" id="confoirmRadio"></span>
+					</label><br><br>
+
+					<label class="detailsPopUpLabel">Details: 
+						<textarea id="popUpdetails" cols="15" rows="8" readonly></textarea>
+					</label><br>
+					
+					
+				</form>
+				<br>
+				<div class="submitbuttons">
+					<button class="close btn" onclick="editFrame()">Edit</button>
+					<button id="submitBtn" onclick="submitCheckedForm(), location.href='mailto:isuru.20211132@iit.ac.lk'">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="bottombtn">
+		<a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Content Page\index.html">Content Page</a>
+		<a href="D:\Studies\IIT\IIT SE Beng(Hons)\Web Dev\Course Work\Page Editors\PageEditorStudent1\index.html">Page Editor</a>
+	</div>
+	<br>
+
+	<script src="QueryForm.js"></script>
+</body>
+</html>

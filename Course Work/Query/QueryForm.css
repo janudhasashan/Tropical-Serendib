@@ -1,0 +1,254 @@
+/*********************************   top of the page *******************************************************************/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url(https://wallpaperaccess.com/full/2592105.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/******************* NAV BAR **************************/
+
+.logo{
+  position: fixed;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.centerNavBar{
+  display: flex;
+    justify-content: right;
+    padding-top: 1%;
+}
+
+ul {
+  margin: 0;
+  padding-right: 0;
+  padding-top: 5px;
+    
+}
+
+li {
+  display:inline;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+a { 
+  padding-right: 13px;
+  text-decoration: none;
+  padding-left: 5px;
+  color: black;
+}
+
+a:hover {
+
+  text-decoration: 3px underline;
+  text-decoration-color: black;
+  text-underline-offset: 8px;
+}
+
+.withoutLast{
+  border-right: 2px solid black; 
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 70px;
+  color: rgb(14, 27, 44);
+}
+
+/*********************************    Query Form     *******************************************************************/
+
+.emailForm-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+
+table tr td{
+  width: 60%;
+  padding: 10px;
+}
+
+#radioBook, #radioPostpone, #radioCancel, #radioRefund{
+  margin: auto 10px auto 0;
+  cursor: pointer;
+}
+
+.nameInput, .emailInput{
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px outset rgb(16, 139, 187);
+  font-size: 20px;
+  width: 299px;
+}
+
+.emailInput{
+  margin-left: 3px;
+}
+
+textarea {
+  border-radius: 8px;
+  border: 1px outset rgb(16, 139, 187);
+  resize: none;
+  height: 100px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 8px;
+  width: 95%;
+}
+
+.queryFormName, .queryFormEmail, .queryFormRadio{
+  color: rgb(14, 27, 44);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.emailForm {
+  border-radius: 15px;
+  border: 1px solid rgb(16, 139, 187);
+  padding: 30px;
+  position: relative;
+  top: 22%;
+  background-color: rgb(223, 246, 255, 0.5);
+  margin: 15px 0px 0px 0px;
+  width: 400px;
+}
+
+.checkBtn {
+  border-radius: 8px;
+  letter-spacing: 2px;
+  border: 1px solid rgb(16, 139, 187);
+  color: rgb(14, 27, 44);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+
+.checkBtn:hover {
+  border: 1px solid #DFF6FF;
+  background-color: rgb(14, 27, 44);
+  color: #DFF6FF;
+}
+
+/*********************************    PopUp Form     *******************************************************************/
+
+.popUpForm-center, .popUpForm  {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/********************** Label **************************/
+.namePopUpLabel, .emailPopUpLabel, .subjectPopUpLabel, .detailsPopUpLabel{
+  color: rgb(14, 27, 44);
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.inputPopUpForm{
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 20px;
+  width: 299px;
+  background-color: rgb(0, 0, 0, 0.3);
+  color: white;
+}
+
+#namePopUp{
+  margin-left: 20px;
+  
+}
+
+#emailPopUp{
+  margin-left: 25px;
+  
+}
+
+#confoirmRadio{
+  margin-left: 2px;
+}
+
+#popUpdetails{
+  width: 425px;
+}
+
+.confoirmRadio, .popUpdetails{
+  color: black;
+}
+
+.popUpForm{
+  display: none;
+  position: relative;
+}
+
+.check-Form {
+  background-color: rgb(223, 246, 255, 0.5);
+  position: relative;
+  margin-top: 20px;
+  width: 450px;
+  height: 430px;
+  bottom: 20px;
+  padding: 20px;
+  border: 2px solid rgb(14, 27, 44);
+  border-radius: 10px;
+}
+
+.close {
+  border-radius: 8px;
+  letter-spacing: 2px;
+  border: 1px solid rgb(14, 27, 44);
+  color: rgb(14, 27, 44);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 49%;
+}
+
+.close:hover,
+.close:focus {
+  border: 1px solid #DFF6FF;
+  background-color: rgb(223, 246, 255, 0.5);
+}
+
+#submitBtn{
+  border-radius: 8px;
+  letter-spacing: 2px;
+  border: 1px solid rgb(14, 27, 44);
+  color: rgb(14, 27, 44);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 49%;
+}
+
+
+#submitBtn:hover,
+#submitBtn:focus {
+  border: 1px solid #DFF6FF;
+  background-color: rgb(223, 246, 255, 0.5);
+}
+
+.bottombtn a{
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #DFF6FF;
+  border: 1px solid rgb(14, 27, 44);
+  color: rgb(14, 27, 44);
+}
+
+.bottombtn a:hover{
+  border: 1px solid #DFF6FF;
+  background-color: rgb(223, 246, 255, 0.5);
+}
